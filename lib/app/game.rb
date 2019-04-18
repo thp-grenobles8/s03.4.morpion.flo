@@ -1,3 +1,5 @@
+# class create and clean the game.
+# can also print score
 class Game
   attr_accessor :board_game, :player1, :player2, :shows
   def initialize(name1, name2)

@@ -11,12 +11,11 @@ class Player
     @score = score
   end
 
+
   def play(coordinate, board_game)
-    if board_game.board_hash[coordinate][0].free?
       board_game.board_hash[coordinate][0].played(@piece_shape)
       x = board_game.board_hash[coordinate][1]
       y = board_game.board_hash[coordinate][2]
       board_game.board_matrix.send :[]=, x, y, @player_value
-    end
   end
 end

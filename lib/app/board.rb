@@ -6,6 +6,8 @@
 
 class Board
   attr_accessor :board_hash, :board_matrix
+  # create a matrix to check the end of the game
+  # create hash to link a1, a2 ... to case en coordonate x-y
   def initialize
     @board_matrix = Matrix.zero(3)
     @board_hash = {}
@@ -17,11 +19,13 @@ class Board
     end
   end
 
+  # clear the board game
   def clear_board
     @board_matrix = Matrix.zero(3)
     @board_hash.each { |key, value|  value[0].clear_case}
   end
 
+  # check if someone win 
   def still_ongoing
     diagonale, anti_diagonale = 0, 0
     3.times do |i|
