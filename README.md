@@ -1,9 +1,8 @@
 # s03.4.morpion.flo
 
 repo de Florian Chazot
-<a href="slack://user?team=T3W8B88JW&id=UHFNBN79D">Florian Chazot</a>
-Un petit jeu de morpion stylé !!!
 
+Un petit jeu de morpion stylé !!!
 
 ## pour lancer le jeu
 
@@ -12,3 +11,4 @@ Un petit jeu de morpion stylé !!!
 - un petit `bundle install` au cas ou
 
 - un petit `ruby app.rb` et c'est parti
+<a href="https://thehackingproject.slack.com/messages/UHFNBN79D/">@Florian Chazot</a>
